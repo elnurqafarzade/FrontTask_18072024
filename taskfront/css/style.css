@@ -1,0 +1,155 @@
+.header{
+
+    margin-bottom: 120px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar-item {
+    display: inline;
+    margin-left: 1152px;
+    margin-bottom: 14px;
+}
+
+.navbar-item li {
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+.navbar-item li a {
+    text-decoration: none;
+    font-style: 19px;
+    color: darkgray;
+}
+
+.navbar-item button {
+    color: blue;
+}
+
+.logo a{ 
+     text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 1px solid blue
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+main h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-table {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+   
+}
+
+.pricing-plan h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-plan ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing-plan ul li:last-child {
+    border-bottom: none;
+}
+
+.pricing-plan button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.footer-container {
+    display: flex;
+    background-color: #fff;
+    color: #0f0808;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #0f0707;
+}
